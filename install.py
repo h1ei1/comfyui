@@ -4,7 +4,7 @@ import os
 
 def exp():
     
-    command = ["open", "-a", "calculator"]
+    command = ["calc"]
     subprocess.run(command,check=True)
 if __name__ == "__main__":
     exp()
