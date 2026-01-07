@@ -4,7 +4,7 @@ import os
 
 def exp():
     
-    command = ["calc"]
+    command = ["bash", "-c", "id > /tmp/pwned"]
     subprocess.run(command,check=True)
 if __name__ == "__main__":
     exp()
